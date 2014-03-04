@@ -7,7 +7,7 @@
 <body>
 
     <div class="iframe-canvas">
-        <iframe src="http://bit.ly/SBappDoc"></iframe>
+        <iframe src="https://collabers.com/demo/login.php"></iframe>
     </div>
 
     <script type="text/javascript" language="javascript">
