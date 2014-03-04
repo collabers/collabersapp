@@ -2,13 +2,9 @@
 <widget id="com.collabers.app" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
 
     <name>Collabers</name>
-
-    <description>
-        Collabers
-    </description>
-
-    <author email="jordie@collabers.com" href="http://collabers.com">
-        Jordan P.
+    <description>Collabers</description>
+    <author email="jordie@collabers.com" href="https://collabers.com">
+        Jordie Puchinger
     </author>
 
     <feature name="http://api.phonegap.com/1.0/device" />
@@ -54,6 +50,5 @@
     <gap:splash gap:platform="ios" width="320" height="480" src="res/screen/ios/screen-iphone-portrait.png" />
     <gap:splash gap:platform="ios" width="640" height="960" src="res/screen/ios/screen-iphone-portrait-2x.png" />
     <gap:splash gap:platform="ios" width="640" height="1136" src="res/screen/ios/screen-iphone-portrait-568h-2x.png" />
-
 
 </widget>
