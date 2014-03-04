@@ -1,0 +1,87 @@
+.wrapper{
+  width:100%;
+  height:100%;
+}
+.content{
+  position:relative;
+  display:block;
+  float: left;
+  width: 100%;
+  height:100%;
+}
+.contentPadding{
+  padding:20px;
+}
+
+.contentColumn{
+  display:block;
+  position:relative;
+  margin: 0 200px 0 230px; /*Margins for content column. Should be "0 RightColumnWidth 0 LeftColumnWidth*/
+  min-width:600px;
+  background:#f9fafc;
+  height:100%;
+  border-right:1px solid #e0e4e8;
+}
+
+.leftColumn{
+  float: left;
+  width: 230px; /*Width of left column*/
+  margin-left: -100%;
+  background: #4c5566;
+  height:100%;
+  border-right:1px solid #39404e;
+}
+
+.rightColumn{
+  float: left;
+  min-width: 200px; /*Width of right column*/
+  max-width: 200px; 
+  margin-left: -200px; /*Set left marginto -(RightColumnWidth)*/
+  background: #FFF;
+  height:100%;
+  border-left:1px solid #f9fafc;
+}
+
+.logoDisplay{
+  display:block;
+  width:230px;
+  background:#3d4452;
+  border-bottom:1px solid #39404e;
+  padding:7px 0px 7px 0px;
+}
+.logo{
+  display:block;
+  margin:0 auto;
+}
+.headDisplay{
+  display:block;
+  background:#f3f4f6;
+  border-bottom:1px solid #e0e4e8;
+  padding:10px;
+}
+
+.footDisplay{
+  position:absolute;
+  background:#f3f4f6;
+  border-top:1px solid #e0e4e8;
+  padding:10px;
+  bottom:0px !important;
+  width:100%;
+}
+.footDisplay2{
+  position:absolute;
+  background:#f3f4f6;
+  border-top:1px solid #e0e4e8;
+  padding:10px;
+  bottom:0px !important;
+  width:199px;
+}
+.notesColumn{
+  display:block;
+  position:relative;
+  margin: 0 200px 0 230px; /*Margins for content column. Should be "0 RightColumnWidth 0 LeftColumnWidth*/
+  min-width:600px;
+  background:url(/assets/images/background-notes.png) #f9fafc;
+  height:100%;
+  border-right:1px solid #e0e4e8;
+}
