@@ -162,12 +162,16 @@ a:link, a:visited, a:active, a:focus, a:hover{
    background:#FFFFFF;
 }
 
-a.guest:link, a.guest:visited, a.guest:active{
-    display:block;
-    width:31px;
-    height:44px;
-    background:url(../../../../../me.png) no-repeat;
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    a.guest:link, a.guest:visited, a.guest:active{
+        display:block;
+        width:31px;
+        height:44px;
+        background:url(../../../../../me.png) no-repeat;
+    }
 }
+
+
 
 
 
