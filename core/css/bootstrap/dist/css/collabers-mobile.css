@@ -161,6 +161,13 @@ a:link, a:visited, a:active, a:focus, a:hover{
    border-top:1px solid #b2b2b2;
    background:#FFFFFF;
 }
+
+a.guest:link, a.guest:visited, a.guest:active{
+    display:block;
+    width:31px;
+    height:44px;
+    background:url(../../../../../me.png) no-repeat;
+}
 
 
 
