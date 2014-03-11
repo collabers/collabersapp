@@ -162,7 +162,10 @@ a:link, a:visited, a:active, a:focus, a:hover{
    background:#FFFFFF;
 }
 
-@media all and (-webkit-min-device-pixel-ratio: 2) {
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
     a.guest:link, a.guest:visited, a.guest:active{
         display:block;
         width:31px;
