@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.collabers.app" version="1.0.22" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.collabers.app" version="1.0.23" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
 
     <name>Collabers Test</name>
     <description>Collabers Test</description>
@@ -59,12 +59,6 @@
     <preference name="StatusBarOverlaysWebView" value="true" />
     <preference name="StatusBarBackgroundColor" value="#51c9ec" />
     
-    <gap:config-file platform="ios" parent="UIStatusBarHidden">
-        <true/>
-    </gap:config-file>
-    
-    <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
-        <false/>
-    </gap:config-file>
+
 
 </widget>
