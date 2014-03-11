@@ -148,10 +148,19 @@ a:link, a:visited, a:active, a:focus, a:hover{
 
 
 
-
-
+  
+ 
 /* COLLABERS MOBILE CSS BEGIN */
 .header-mobile{
+    position:fixed;
+    top:0px;
+    display:block;
+    width:100%;
+    height:44px;
+    background-color:#51c9ec;
+    border-bottom:#FFFFFF 1px solid;
+}
+.header-mobile-content{
     position:fixed;
     top:0px;
     display:block;
@@ -167,6 +176,7 @@ a:link, a:visited, a:active, a:focus, a:hover{
     display:block;
     width:100%;
     height:44px;
+    border-top:#000000 1px solid;
 }
 .footer-mobile-content{
     position:fixed;
