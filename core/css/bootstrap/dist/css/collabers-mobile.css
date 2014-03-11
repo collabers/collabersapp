@@ -152,7 +152,7 @@ a:link, a:visited, a:active, a:focus, a:hover{
 
 /* COLLABERS MOBILE CSS BEGIN */
 
-.footer{
+.footer-mobile{
    position:fixed;
    bottom:0px;
    display:block;
