@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.collabers.app" version="1.0.19" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
 
-    <name>Collabers</name>
-    <description>Collabers</description>
+    <name>Collabers Test</name>
+    <description>Collabers Test</description>
     <author email="jordie@collabers.com" href="https://collabers.com">
         Jordie Puchinger
     </author>
