@@ -10,7 +10,7 @@
     <feature name="http://api.phonegap.com/1.0/device" />
     <preference name="phonegap-version" value="3.3.0" />
     <preference name="permissions" value="none" />
-    <preference name="orientation" value="default" />
+    <preference name="orientation" value="portrait" /> <!-- changed from default --> 
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="false" />
     <preference name="webviewbounce" value="true" />
@@ -19,16 +19,14 @@
         <preference name="ios-statusbarstyle" value="black-opaque" />
         
     <preference name="detect-data-types" value="true" />
-    <preference name="exit-on-suspend" value="true" /> <!-- changed from false -->
-    <preference name="show-splash-screen-spinner" value="true" /> <!-- changed from false -->
+    <preference name="exit-on-suspend" value="false" /> <!--changed from false (changed back. when multi-tasking apps on ios it removes session) -->
+    <preference name="show-splash-screen-spinner" value="false" /> <!-- changed from false -->
     <preference name="SplashScreenDelay" value="5000" />
     <preference name="auto-hide-splash-screen" value="true" />
     <preference name="android-minSdkVersion" value="10" />
     <preference name="android-targetSdkVersion" value="16" />
     <preference name="android-installLocation" value="auto" />
     
-    <!-- Default Icon -->
-        <icon src="icon.png" />
     <!-- Android Icon Set -->
         <icon gap:density="ldpi" gap:platform="android" src="res/icon/android/icon-36-ldpi.png" />
         <icon gap:density="mdpi" gap:platform="android" src="res/icon/android/icon-48-mdpi.png" />
@@ -44,11 +42,12 @@
     <gap:splash gap:density="mdpi" gap:platform="android" src="res/screen/android/screen-mdpi-portrait.png" />
     <gap:splash gap:density="hdpi" gap:platform="android" src="res/screen/android/screen-hdpi-portrait.png" />
     <gap:splash gap:density="xhdpi" gap:platform="android" src="res/screen/android/screen-xhdpi-portrait.png" />
-
+        
     <gap:splash gap:platform="ios" width="1024" height="783" src="res/screen/ios/screen-ipad-landscape.png" />
     <gap:splash gap:platform="ios" width="2008" height="1536" src="res/screen/ios/screen-ipad-landscape-2x.png" />
     <gap:splash gap:platform="ios" width="768" height="1004" src="res/screen/ios/screen-ipad-portrait.png" />
     <gap:splash gap:platform="ios" width="1536" height="2008" src="res/screen/ios/screen-ipad-portrait-2x.png" />
+    
     <gap:splash gap:platform="ios" width="480" height="320" src="res/screen/ios/screen-iphone-landscape.png" />
     <gap:splash gap:platform="ios" width="960" height="640" src="res/screen/ios/screen-iphone-landscape-2x.png" />
     <gap:splash gap:platform="ios" width="320" height="480" src="res/screen/ios/screen-iphone-portrait.png" />
